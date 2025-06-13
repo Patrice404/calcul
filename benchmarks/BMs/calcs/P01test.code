@@ -1,0 +1,4 @@
+int x = 0;
+double f = 1.3;
+x += f; // Cast implicite double -> int
+output(x);

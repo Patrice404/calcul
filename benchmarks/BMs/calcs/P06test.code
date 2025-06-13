@@ -1,0 +1,11 @@
+int x;
+int y;
+double d;
+
+x = 3;
+y = 4;
+
+d = (double)x / y; // cast implicite de y en double
+
+if(d) then output(d);
+else output(0);

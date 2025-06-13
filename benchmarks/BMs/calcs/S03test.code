@@ -1,0 +1,11 @@
+double a;
+double b;
+double c;
+a = 3.14;
+b = --a; // b = 2.14 a = 2.14 // Pré décrémentation
+c = ++a; // c = 3.14 a = 3.14 // Pré incrémentation
+
+output(a) // 3.14
+output(b) // 2.14
+output(c) // 3.14
+

@@ -1,0 +1,18 @@
+int x;
+
+x = 5;
+
+while(True){
+
+    x++;
+
+    while(x<8){
+        x++;
+        if(x==7) then break; // test de break imbriqué
+    }
+    output(x);
+    if(x<10) then break;
+}
+
+
+

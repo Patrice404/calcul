@@ -1,0 +1,11 @@
+int a;
+int b;
+int c;
+a = 5;
+b = --a; // b = 4 a = 4 // Pré décrémentation
+c = ++a; // c = 5 a = 5 // Pré incrémentation
+
+output(a)
+output(b)
+output(c)
+

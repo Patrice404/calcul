@@ -1,0 +1,4 @@
+double f = 0.5;
+int x = 3;
+f  *= x;
+output(f); // conversion int -> double

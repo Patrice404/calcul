@@ -1,0 +1,12 @@
+int x;
+double f;
+int y;
+
+
+x = 5;
+f = 0.25;
+
+y = (x-2) * f; // conversion expression en double et expression en int
+
+output(y); // y = 0
+

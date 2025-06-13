@@ -1,0 +1,1 @@
+export CLASSPATH=".:/usr/share/java/*:$CLASSPATH" && LANG=C.utf8 benchmarks/tp-compil-autocor Calcul.g4 *.java

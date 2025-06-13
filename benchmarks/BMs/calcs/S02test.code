@@ -1,0 +1,10 @@
+int a;
+int b;
+int c;
+a = 5;
+b = a--; // b = 5 a = 4 // Post décrémentation
+c = a++; // c = 4 a = 5 // Post incrémentation
+
+output(a)
+output(b)
+output(c)

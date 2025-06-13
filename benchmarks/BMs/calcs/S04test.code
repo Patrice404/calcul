@@ -1,0 +1,11 @@
+double a;
+double b;
+double c;
+a = 3.14;
+b = a--; // b = 3.14 a = 2.14 // Post décrémentation
+c = a++; // c = 2.14 a = 3.14 // Post incrémentation
+
+output(a) // 3.14
+output(b) // 3.14
+output(c) // 2.14
+

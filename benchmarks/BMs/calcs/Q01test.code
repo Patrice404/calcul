@@ -1,0 +1,12 @@
+int x;
+x = 5;
+
+while(x > 0){
+	x-=1;
+    x*=2;
+    x/=2;
+    x%=(x+1);
+    x+=1;
+	break;
+}
+output(x); // x = 5

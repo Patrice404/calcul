@@ -1,0 +1,7 @@
+int x;
+int y;
+bool b;
+input(x);
+input(y);
+b = x and y; // conversion expression en bool
+output(b);

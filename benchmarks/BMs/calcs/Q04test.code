@@ -1,0 +1,18 @@
+int i;
+int N;
+bool est_premier;
+
+input(N);
+
+if (N>1) then est_premier = True;
+else est_premier = False;
+
+for(i = 2; i*i<N; i+=1){
+    if(N%i==0) then {
+        est_premier = False;
+        break;
+    }
+}
+
+output(est_premier);
+

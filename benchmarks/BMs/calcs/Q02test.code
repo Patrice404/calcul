@@ -1,0 +1,7 @@
+int x;
+input(x);
+
+while(x--){
+	if(x==3) then break;
+}
+output(x);

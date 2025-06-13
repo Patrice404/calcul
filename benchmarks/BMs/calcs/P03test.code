@@ -1,0 +1,5 @@
+bool b = True;
+double f = 1.5;
+b = (bool)f; // cast expression en bool
+if ( not b ) then output(0) 
+else output(1)

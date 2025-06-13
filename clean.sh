@@ -1,0 +1,1 @@
+rm -rf *.class *.interp *.tokens Compil-* CalculListener.java CalculParser.java CalculLexer.java CalculBaseListener.java

@@ -1,0 +1,1 @@
+export CLASSPATH=".:/usr/share/java/*:$CLASSPATH" && java org.antlr.v4.Tool Calcul.g4 && javac Calcul*.java && antlr4-grun Calcul 'start' -gui
